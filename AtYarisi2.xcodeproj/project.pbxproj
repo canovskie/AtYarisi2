@@ -14,6 +14,7 @@
 		369840302A7C012A009586A7 /* AtYarisi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698402F2A7C012A009586A7 /* AtYarisi2Tests.swift */; };
 		3698403A2A7C012A009586A7 /* AtYarisi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369840392A7C012A009586A7 /* AtYarisi2UITests.swift */; };
 		3698403C2A7C012A009586A7 /* AtYarisi2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698403B2A7C012A009586A7 /* AtYarisi2UITestsLaunchTests.swift */; };
+		369840492A7C0446009586A7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369840482A7C0446009586A7 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		369840352A7C012A009586A7 /* AtYarisi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtYarisi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369840392A7C012A009586A7 /* AtYarisi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtYarisi2UITests.swift; sourceTree = "<group>"; };
 		3698403B2A7C012A009586A7 /* AtYarisi2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtYarisi2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		369840482A7C0446009586A7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3698401E2A7C0128009586A7 /* AtYarisi2App.swift */,
 				369840202A7C0128009586A7 /* ContentView.swift */,
+				369840482A7C0446009586A7 /* Game.swift */,
 				369840222A7C012A009586A7 /* Assets.xcassets */,
 				369840242A7C012A009586A7 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				369840212A7C0128009586A7 /* ContentView.swift in Sources */,
+				369840492A7C0446009586A7 /* Game.swift in Sources */,
 				3698401F2A7C0128009586A7 /* AtYarisi2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
